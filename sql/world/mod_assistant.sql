@@ -64,7 +64,7 @@ UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (40129, 
 UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (40164, 40165, 40166, 40167, 40168, 40169, 40170, 40171, 40172, 40173, 40174, 40175, 40176, 40177, 40178, 40179, 40180, 40181, 40182);
 UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (40142, 40143, 40144, 40145, 40146, 40147, 40148, 40149, 40150, 40151, 40152, 40153, 40154, 40155, 40156, 40157, 40158, 40159, 40160, 40161, 40162, 40163);
 -- Containers
-UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (1729, 3604, 3605, 22243);
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (1729, 3604, 3605, 22243, 51809);
 UPDATE `item_template` SET `maxcount`=0 WHERE `entry`=1729;
 
 -- Heirloom: Weapon
@@ -109,6 +109,7 @@ INSERT INTO `npc_vendor` (`entry`, `item`) VALUES
 (@Entry+1, 48689), -- Stained Shadowcraft Tunic
 (@Entry+1, 48691), -- Tattered Dreadmist Robe
 (@Entry+1, 50255), -- Dread Pirate Ring
+(@Entry+1, 122261), -- Inherited Cape of the Black Baron EX
 -- Heirloom: Other
 (@Entry+2, 49177), -- Tome of Cold Weather Flight
 -- Glyph: Warrior (Major)
@@ -596,3 +597,4 @@ INSERT INTO `npc_vendor` (`entry`, `item`) VALUES
 (@Entry+30, 3604), -- Bandolier of the Night Watch
 (@Entry+30, 3605), -- Quiver of the Night Watch
 (@Entry+30, 22243); -- Small Soul Pouch
+(@Entry+30, 51809); -- Portable Hole EX
