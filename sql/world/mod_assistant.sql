@@ -112,6 +112,7 @@ INSERT INTO `npc_vendor` (`entry`, `item`) VALUES
 (@Entry+1, 122261), -- Inherited Cape of the Black Baron EX
 -- Heirloom: Other
 (@Entry+2, 49177), -- Tome of Cold Weather Flight
+(@entry+2, 9017), -- Book of Powers
 -- Glyph: Warrior (Major)
 (@Entry+3, 43412), -- Glyph of Bloodthirst
 (@Entry+3, 43413), -- Glyph of Rapid Charge
